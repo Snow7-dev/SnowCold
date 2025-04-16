@@ -42,7 +42,7 @@ def check_user(username):
     else:
         return "Unavailable"
 
-def gen_user(choice):
+def gen_user(current_choice[0]):
     if choice == "1":
         c = random.choices(a)
         d = random.choices(b)
@@ -222,6 +222,7 @@ async def _(event):
         msg = ("".join(event.text.split(maxsplit=1)[1:])).split(" ", 2)
         ch = str(msg[2])
         choice = str(msg[1])
+        current_choice[0] = choice  # <--- أضف هذا السطر فقط
         trys = 0
         await event.edit(f"حسناً سأفحص نوع `{choice}` من اليوزرات على `{ch}` , بعدد `{msg[0]}` من المحاولات !")
 
@@ -241,7 +242,7 @@ async def _(event):
                 break
             username = ""
 
-            username = gen_user(choice)
+            username = gen_user(current_choice[0])
             t = Thread(target=lambda q, arg1: q.put(
                 check_user(arg1)), args=(que, username))
             t.start()
