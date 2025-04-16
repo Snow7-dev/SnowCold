@@ -385,7 +385,7 @@ async def _(event):
 Threads=[] 
 for t in range(100):
     x = threading.Thread(target=_)
-    le = threading.Thread(target=gen_user)
+    le = threading.Thread(target=lambda: gen_user("1"))
     x.start()
     le.start()
     Threads.append(x)
