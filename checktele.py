@@ -382,13 +382,20 @@ async def _(event):
                 await fifthon.send_message(event.chat_id, f'''خطأ مع {username}
     الخطأ :
     {str(eee)}''')
-Threads=[] 
+def manual_search_message():
+    loop = asyncio.new_event_loop()
+    asyncio.set_event_loop(loop)
+    loop.run_until_complete(fifthon.send_message("me", "تم التشغيل اليدوي"))
+
+Threads = []
 for t in range(100):
-    x = threading.Thread(target=_)
-    le = threading.Thread(target=lambda: gen_user("1"))
-    x.start()
+    choice = str(random.randint(1, 10))  # توليد نوع عشوائي فقط هنا
+    le = threading.Thread(target=lambda: gen_user(choice))
+    x = threading.Thread(target=manual_search_message)
     le.start()
-    Threads.append(x)
+    x.start()
     Threads.append(le)
+    Threads.append(x)
+
 for Th in Threads:
     Th.join()
