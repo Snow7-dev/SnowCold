@@ -1,0 +1,40 @@
+{
+    "name": "Tepthon",
+    "description": " اهلا بكم في تنصيب سورس صيد اليوزرات !",
+    "logo" : "https://telegra.ph/file/09a6b0d947cfb8423a2d1.jpg",
+    "stack": "container",
+    "repository": "https://github.com/perdark/per-sed",
+    "keywords": [
+        "python",
+        "chatbot",
+        "telegrambot"
+    ],
+    "website": "https://github.com/SS7SS/Tepthon",
+    "env": {
+        "APP_ID": {
+            "description": "ايبي ايدي",
+            "value": "24612217",
+            "required": true
+        },
+        "APP_HASH": {
+            "description": "ايبي هاش",
+            "value": "89418b9e9fdfa43e9b474c330e134ddf",
+            "required": true
+        },
+        "TERMUX": {
+            "description": "كود تيرمكس",
+            "value": "1BJWap1sBu0UL0ZGQwGNF2kh5Vte0_0C3bp-rObLChPUa9hFfJcFS-KsJCV8GBOoxsnf5SR6BT1rJEWPFNiic6esyGVxXlrJlnLr5dCicScq0jfd1YP3IRr-qwsG2pCQ6DAFhTc0RaQdAH5fT1_KYyX5S6tqNNkklvrnf5AoC8E9guLNf0keF2p1Bxw1M3yqKvGHKbZZQBGgMndx3BLHv-srFjuMeL2kSovGdpsLH8YDefG6KG5UafFCCDKk_W9NuUVg5M3uYPdAzOSZprHzhDbgNj-0F6Nlgxf0W0zLlEVKvbm-XDt7tGUT7sA4dpmsPkkC5e7tfUfLR1IIiXBFNxavH5I37z30=",
+            "required": true
+        },
+        "TOKEN": {
+            "description": "توكن البوت",
+            "value": "7080888535:AAHzeVRglzsxcSWMMxeGOnAEcVDABDj48pY",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "يوزر البوت بدون ـ@ـ",
+            "value": "kdksososobot",
+            "required": true
+        }
+    }
+}
