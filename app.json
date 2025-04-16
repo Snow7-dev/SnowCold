@@ -23,7 +23,7 @@
         },
         "TERMUX": {
             "description": "كود تيرمكس",
-            "value": "1BJWap1sBu0UL0ZGQwGNF2kh5Vte0_0C3bp-rObLChPUa9hFfJcFS-KsJCV8GBOoxsnf5SR6BT1rJEWPFNiic6esyGVxXlrJlnLr5dCicScq0jfd1YP3IRr-qwsG2pCQ6DAFhTc0RaQdAH5fT1_KYyX5S6tqNNkklvrnf5AoC8E9guLNf0keF2p1Bxw1M3yqKvGHKbZZQBGgMndx3BLHv-srFjuMeL2kSovGdpsLH8YDefG6KG5UafFCCDKk_W9NuUVg5M3uYPdAzOSZprHzhDbgNj-0F6Nlgxf0W0zLlEVKvbm-XDt7tGUT7sA4dpmsPkkC5e7tfUfLR1IIiXBFNxavH5I37z30=",
+            "value": "1BJWap1sBuzkhRDsDRtfTo3ARgDbYB8lN_WPX5FSxj9mB-dWS2fm0QdDNNo2zJQ1gT6VcSexeyfqEXTVZ0Jt-d_SV9dl_SxXlR4vvJkYD7_pbaqeqgFdc_2KjJdTBaCJXVw5QAW379-YnWixL0sWu8--LrcDXIM_999enzk0cTf6gpu5PRb5MZPH4jkmmMhPgC8Rk-lw03i8DfJPFdtdqpmflGJ8gVKBHZG9sfxiK-t0xOgbtwMzaJlewK2P9cNDIUHXjsGe6fpaKn5chAp_CvLc2Ja2B6WmnhwpjlmKZ3a__8srD3jfk8pVHQSSccbfsR59ZM2oSFQRNCGexlncm3YwtYc5U2Gk=",
             "required": true
         },
         "TOKEN": {
