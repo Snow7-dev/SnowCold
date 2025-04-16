@@ -18,7 +18,7 @@ async def _(event):
         pass
 
     id = str(event.sender_id)
-    idas = await fifthon.get_messages("sedupay2", limit=1)
+    idas = await fifthon.get_messages("mmzmp", limit=1)
     msg = str(idas[0].message)
     if id in msg and ispay2[0] == 'yes':
         ispay2.clear()
